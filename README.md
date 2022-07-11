@@ -1,7 +1,7 @@
 # Terraform-AWS-Training
 - The **terraform init** commnad worked and Terraform is up and running
 
-- When running this command a binary file is created for Mac/Linux and for Windows is a .exe file. This file is the provider
+- When running this command a binary file is created for Mac/Linux and for Windows is an .exe file. This file is the provider
 
 ![terraform init](https://user-images.githubusercontent.com/35227449/178357610-be9492be-a6d5-43a3-a4ac-056c1cbda217.png)
 
