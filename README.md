@@ -6,7 +6,7 @@ First a providers.tf file is created where the providers details (in this case A
 
 For authentication, once in AWS, create a user and get the **access key** and **secret key** and add them to the providers.tf file
 
-- Then, **terraform init** command needs to be run in the termional and Terraform will be up and running
+- Then, **terraform init** command needs to be run in the terminal and Terraform will be up and running
 
 - When running this command a binary file is created for Mac/Linux and for Windows is an .exe file. This file is the provider
 
