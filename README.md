@@ -28,8 +28,7 @@ In order to create the VPC on AWS, a main.tf file is added
 
 - Then the VPC on AWS will be created 
 
-<img width="1160" alt="awsvpc" src="https://user-<img width="333" alt="Screenshot 2022-07-13 at 22 26 24" src="https://user-images.githubusercontent.com/35227449/178839353-fea278c9-326d-4c4b-b3fe-2c6320136836.png">
-images.githubusercontent.com/35227449/178839024-70747158-7213-475f-adf7-9f808f9e7758.png">
+<img width="1160" alt="awsvpc" src="https://user-images.githubusercontent.com/35227449/178840916-c19a2759-f943-4883-8490-5c74534b3595.png">
 
 Another way to check if the VPC was created is to check on AWS on VsCode. 
 
