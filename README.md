@@ -37,3 +37,8 @@ Another way to check if the VPC was created is to check on AWS on VsCode.
 If we click on the VPC resource on VsCode, it will display the details of it 
 
 <img width="774" alt="Screenshot 2022-07-13 at 22 32 10" src="https://user-images.githubusercontent.com/35227449/178841089-88660af5-29b1-4283-9c89-392b0b6e8253.png">
+
+-------------------------
+
+Now we need to understand the concept of State on Terraform
+https://www.terraform.io/language/state
