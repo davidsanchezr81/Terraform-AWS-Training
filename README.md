@@ -1,4 +1,4 @@
-# Terraform-AWS-Training
+# Terraform-AWS Training
 
 - First a providers.tf file is created where the providers details (in this case AWS)
 
