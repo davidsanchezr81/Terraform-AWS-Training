@@ -12,7 +12,9 @@ For authentication, once in AWS, create a user and get the **access key** and **
 
 ![terraform init](https://user-images.githubusercontent.com/35227449/178357610-be9492be-a6d5-43a3-a4ac-056c1cbda217.png)
 
-In order to create the components on AWS, in this case the VPC, a main.tf file is added
+*** One important thing to highlight is that when creating an AWS account, there will be a default VPC created. So in order to avoid going over the limit of Free tier, remove the default one and proceed to create the VPC through the Terraform command since only 1 VPC should be running (750h/month).
+
+In order to create the VPC on AWS, a main.tf file is added
 
 <img width="322" alt="mainfile" src="https://user-images.githubusercontent.com/35227449/178837830-0eac734b-3fcb-49e2-91a2-ac3836246461.png">
 
@@ -20,7 +22,7 @@ In order to create the components on AWS, in this case the VPC, a main.tf file i
 
 ![terrafomr plan](https://user-images.githubusercontent.com/35227449/178357718-cb0fb470-0a9e-4879-a472-8111341e5592.png)
 
-- Once checked the content of the plan, the **terraform apply** command will be run to create the resource on AWS, in this case it will create the VPC
+- Once checked the content of the plan, the **terraform apply** command will be run to create the VPC resource on AWS
 
 <img width="985" alt="terraform apply" src="https://user-images.githubusercontent.com/35227449/178838954-087a0389-a682-4ad3-8668-1ef0f841fd2c.png">
 
@@ -32,5 +34,3 @@ images.githubusercontent.com/35227449/178839024-70747158-7213-475f-adf7-9f808f9e
 Another way to check if the VPC was created is to check on AWS on VsCode. 
 
 <img width="333" alt="Screenshot 2022-07-13 at 22 26 24" src="https://user-images.githubusercontent.com/35227449/178839720-a5dce870-b69e-4992-ac79-c9fcf6b0b369.png">
-
-*** One important thing to highlight is that when creating an AWS, there will be an AWS default VPC created. So in order to avoid going over the limit of Free tier, remove the default one, since only 1 VPC should be running (750h/month).
