@@ -21,3 +21,10 @@ In order to create the components on AWS, in this case the VPC, a main.tf file i
 ![terrafomr plan](https://user-images.githubusercontent.com/35227449/178357718-cb0fb470-0a9e-4879-a472-8111341e5592.png)
 
 - Once checked the content of the plan, the **terraform apply** command will be run to create the resource on AWS, in this case it will create the VPC
+
+<img width="985" alt="terraform apply" src="https://user-images.githubusercontent.com/35227449/178838954-087a0389-a682-4ad3-8668-1ef0f841fd2c.png">
+
+- Then the VPC on AWS will be created 
+
+<img width="1160" alt="awsvpc" src="https://user-images.githubusercontent.com/35227449/178839024-70747158-7213-475f-adf7-9f808f9e7758.png">
+
