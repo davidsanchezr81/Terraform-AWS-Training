@@ -26,5 +26,11 @@ In order to create the components on AWS, in this case the VPC, a main.tf file i
 
 - Then the VPC on AWS will be created 
 
-<img width="1160" alt="awsvpc" src="https://user-images.githubusercontent.com/35227449/178839024-70747158-7213-475f-adf7-9f808f9e7758.png">
+<img width="1160" alt="awsvpc" src="https://user-<img width="333" alt="Screenshot 2022-07-13 at 22 26 24" src="https://user-images.githubusercontent.com/35227449/178839353-fea278c9-326d-4c4b-b3fe-2c6320136836.png">
+images.githubusercontent.com/35227449/178839024-70747158-7213-475f-adf7-9f808f9e7758.png">
 
+Another way to check if the VPC was created is to check on AWS on VsCode. 
+
+![Uploading Screenshot 2022-07-13 at 22.26.24.png…]()
+
+*** One important thing to highlight is that when creating an AWS, there will be an AWS default VPC created. So in order not to go over the limit on free tier, remove the default one, since only 1 VPC should be running (750h/month)
