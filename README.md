@@ -43,6 +43,8 @@
 - Now we need to understand the concept of State on Terraform
 https://www.terraform.io/language/state
 
-- In the project, a .tfstate file will be created with all the data brought from AWS 
+- In the project, a .tfstate file will be created with all the data brought from AWS. Normally this file would be created on terraform cloud or aws, not locally.
 
 <img width="1087" alt="Screenshot 2022-07-13 at 22 49 48" src="https://user-images.githubusercontent.com/35227449/178842819-ddd93477-be0f-4d09-ab16-49b63bae249e.png">
+
+
