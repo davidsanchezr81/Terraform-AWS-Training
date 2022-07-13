@@ -47,4 +47,7 @@ https://www.terraform.io/language/state
 
 <img width="1087" alt="Screenshot 2022-07-13 at 22 49 48" src="https://user-images.githubusercontent.com/35227449/178842819-ddd93477-be0f-4d09-ab16-49b63bae249e.png">
 
+- To check the state thorugh the command line use **terraform state list** to check the available resources. In this case the only one that will appear will be the aws vpc that was just created.
+
+<img width="552" alt="Screenshot 2022-07-13 at 22 55 48" src="https://user-images.githubusercontent.com/35227449/178843629-780d28a6-a430-4108-9ed7-bd147d564f9f.png">
 
