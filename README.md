@@ -52,3 +52,5 @@ https://www.terraform.io/language/state
 <img width="552" alt="Screenshot 2022-07-13 at 22 55 48" src="https://user-images.githubusercontent.com/35227449/178843629-780d28a6-a430-4108-9ed7-bd147d564f9f.png">
 
 - Another way to check the individual resource details through the command line is by running **terraform state show resource-name**, where resource name in this case will be _aws_vpc.mtc_vpc_
+
+22:00 time
