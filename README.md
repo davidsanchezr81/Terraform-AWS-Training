@@ -20,4 +20,4 @@ In order to create the components on AWS, in this case the VPC, a main.tf file i
 
 ![terrafomr plan](https://user-images.githubusercontent.com/35227449/178357718-cb0fb470-0a9e-4879-a472-8111341e5592.png)
 
-A new AWS account needs to be created in order to create the intended VPC 
+- Once checked the content of the plan, the **terraform apply** command will be run to create the resource on AWS, in this case it will create the VPC
