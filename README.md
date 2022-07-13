@@ -31,6 +31,6 @@ images.githubusercontent.com/35227449/178839024-70747158-7213-475f-adf7-9f808f9e
 
 Another way to check if the VPC was created is to check on AWS on VsCode. 
 
-![Uploading Screenshot 2022-07-13 at 22.26.24.png…]()
+<img width="333" alt="Screenshot 2022-07-13 at 22 26 24" src="https://user-images.githubusercontent.com/35227449/178839720-a5dce870-b69e-4992-ac79-c9fcf6b0b369.png">
 
-*** One important thing to highlight is that when creating an AWS, there will be an AWS default VPC created. So in order not to go over the limit on free tier, remove the default one, since only 1 VPC should be running (750h/month)
+*** One important thing to highlight is that when creating an AWS, there will be an AWS default VPC created. So in order to avoid going over the limit of Free tier, remove the default one, since only 1 VPC should be running (750h/month).
