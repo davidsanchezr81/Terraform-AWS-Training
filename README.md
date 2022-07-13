@@ -1,10 +1,10 @@
 # Terraform-AWS-Training
 
-First a providers.tf file is created where the providers details (in this case AWS)
+- First a providers.tf file is created where the providers details (in this case AWS)
 
 <img width="524" alt="providersfile" src="https://user-images.githubusercontent.com/35227449/178838220-b1e7eb37-a47f-498b-a080-59a90e12f1fe.png">
 
-For authentication, once in AWS, create a user and get the **access key** and **secret key** and add them to the providers.tf file
+- For authentication, once in AWS, create a user and get the **access key** and **secret key** and add them to the providers.tf file
 
 - Then, **terraform init** command needs to be run in the terminal and Terraform will be up and running
 
@@ -14,7 +14,7 @@ For authentication, once in AWS, create a user and get the **access key** and **
 
 *** One important thing to highlight is that when creating an AWS account, there will be a default VPC created. So in order to avoid going over the limit of Free tier, remove the default one and proceed to create the VPC through the Terraform command since only 1 VPC should be running (750h/month).
 
-In order to create the VPC on AWS, a main.tf file is added
+- In order to create the VPC on AWS, a main.tf file is added
 
 <img width="322" alt="mainfile" src="https://user-images.githubusercontent.com/35227449/178837830-0eac734b-3fcb-49e2-91a2-ac3836246461.png">
 
