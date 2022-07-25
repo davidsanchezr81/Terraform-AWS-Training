@@ -43,6 +43,8 @@
 - Now we need to understand the concept of State on Terraform
 https://www.terraform.io/language/state
 
+- State is the important feature on Terraform
+
 - In the project, a .tfstate file will be created with all the data brought from AWS. Normally this file would be created on terraform cloud or aws, not locally.
 
 <img width="1087" alt="Screenshot 2022-07-13 at 22 49 48" src="https://user-images.githubusercontent.com/35227449/178842819-ddd93477-be0f-4d09-ab16-49b63bae249e.png">
@@ -57,5 +59,7 @@ https://www.terraform.io/language/state
 
 ![terraform show](https://user-images.githubusercontent.com/35227449/180850135-96dff011-3d94-4880-8ad5-dc6ab80c3cd3.png)
 
+---------------
 
+- To remove elements from terraform we'll use **terraform destroy**
 
