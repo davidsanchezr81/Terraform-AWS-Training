@@ -69,3 +69,7 @@ https://www.terraform.io/language/state
 
 ![Screenshot 2022-07-25 at 19 45 49](https://user-images.githubusercontent.com/35227449/180851431-6f166876-1086-4e4c-926e-c785ed414b11.png)
 
+---------------
+- In order to continue the training, we'll create a new vpc using the command **terraform apply -auto-approve**
+
+![Screenshot 2022-07-25 at 19 48 07](https://user-images.githubusercontent.com/35227449/180852015-3533fc39-1774-44fe-93b8-08592c6fa39b.png)
