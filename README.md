@@ -88,4 +88,10 @@ https://www.terraform.io/language/state
 
 ![Screenshot 2022-07-25 at 20 08 55](https://user-images.githubusercontent.com/35227449/180855606-9b83b13d-6074-419f-9384-ed94ac816e44.png)
 
+- Before creating the subnet we can check for the last time with **terraform plan**
+
+![Screenshot 2022-07-25 at 20 25 35](https://user-images.githubusercontent.com/35227449/180858407-5e887014-15bb-419e-b817-7cb82b5f990c.png)
+
+- Then to create it we'll run **terrafom apply -auto-approve**, this flag is to avoid typing 'yes' everytime terraform asks for approval
+
 
