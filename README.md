@@ -80,6 +80,8 @@ https://www.terraform.io/language/state
 
 ---------------
 - Then we'll deploy a subnet where we'll then deploy our EC2 instance
+- We add the new subnet on the main.tf file and we set the vpc_id equal to the id, which in the backgreound is reading from the state (highlighted in the image)
 
+![Screenshot 2022-07-25 at 19 59 17](https://user-images.githubusercontent.com/35227449/180853739-5174eef4-9f1d-4712-9cfd-70b92874a8c3.png)
 
 - map poublic ip on launch (default false), we want to make sure that instance receives a public IP when we launch into the subnet
