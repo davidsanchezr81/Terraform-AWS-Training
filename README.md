@@ -84,4 +84,4 @@ https://www.terraform.io/language/state
 
 ![Screenshot 2022-07-25 at 19 59 17](https://user-images.githubusercontent.com/35227449/180853739-5174eef4-9f1d-4712-9cfd-70b92874a8c3.png)
 
-- map poublic ip on launch (default false), we want to make sure that instance receives a public IP when we launch into the subnet
+- In the resource section for the new subnet, we add map_public_ip_on_launch (default false) to true, we want to make sure that the EC2 instance receives a public IP when we launch into the subnet
