@@ -73,3 +73,8 @@ https://www.terraform.io/language/state
 - In order to continue the training, we'll create a new vpc using the command **terraform apply -auto-approve**
 
 ![Screenshot 2022-07-25 at 19 48 07](https://user-images.githubusercontent.com/35227449/180852015-3533fc39-1774-44fe-93b8-08592c6fa39b.png)
+
+- Having a new vpc created on AWS 
+
+![Screenshot 2022-07-25 at 19 50 04](https://user-images.githubusercontent.com/35227449/180852237-b4d3a42f-70c9-4fee-9351-b3f6b5441ba9.png)
+
