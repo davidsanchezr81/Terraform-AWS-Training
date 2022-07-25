@@ -61,5 +61,6 @@ https://www.terraform.io/language/state
 
 ---------------
 
-- To remove elements from terraform we'll use **terraform destroy**
+- To remove elements from terraform we'll use **terraform destroy -auot-approve** using the flag to skip approval step
 
+![Screenshot 2022-07-25 at 19 43 59](https://user-images.githubusercontent.com/35227449/180851113-6421f41d-e2f4-4208-9f3e-454e0d0fe130.png)
