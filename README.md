@@ -78,3 +78,8 @@ https://www.terraform.io/language/state
 
 ![Screenshot 2022-07-25 at 19 50 04](https://user-images.githubusercontent.com/35227449/180852237-b4d3a42f-70c9-4fee-9351-b3f6b5441ba9.png)
 
+---------------
+- Then we'll deploy a subnet where we'll then deploy our EC2 instance
+
+
+- map poublic ip on launch (default false), we want to make sure that instance receives a public IP when we launch into the subnet
