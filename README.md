@@ -65,7 +65,7 @@ https://www.terraform.io/language/state
 
 ![Screenshot 2022-07-25 at 19 43 59](https://user-images.githubusercontent.com/35227449/180851113-6421f41d-e2f4-4208-9f3e-454e0d0fe130.png)
 
-- After destroying the vps, it was also removed from AWS
+- After destroying the vpc, it was also removed from AWS
 
 ![Screenshot 2022-07-25 at 19 45 49](https://user-images.githubusercontent.com/35227449/180851431-6f166876-1086-4e4c-926e-c785ed414b11.png)
 
