@@ -53,6 +53,9 @@ https://www.terraform.io/language/state
 
 - Another way to check the individual resource details through the command line is by running **terraform state show resource-name**, where resource name in this case will be _aws_vpc.mtc_vpc_
 
-22:00 time
+- If we instead type **terraform show** it will display everything that terraform has
+
+![terraform show](https://user-images.githubusercontent.com/35227449/180850135-96dff011-3d94-4880-8ad5-dc6ab80c3cd3.png)
+
 
 
