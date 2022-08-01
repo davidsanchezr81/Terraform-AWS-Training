@@ -95,3 +95,4 @@ https://www.terraform.io/language/state
 - Then to create it we'll run **terrafom apply -auto-approve**, this flag is to avoid typing 'yes' everytime terraform asks for approval
 
 Continua minuto 29
+
